@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+}
+/*Header csss*/
+header {
+  display: flex;
+  background-color: #ffffff;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 3px solid #ddd7d754;
+}
+.logo_container {
+  margin-left: 4%;
+}
+.myntra_home {
+  height: 43px;
+}
+.action_bar {
+  margin-right: 4%;
+}
+.nav_bar {
+  display: flex;
+  min-width: 500px;
+  justify-content: space-evenly;
+}
+.nav_bar a {
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  color: #282c3f;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 28px 0;
+  border-bottom: 3px solid #ffffff;
+}
+.nav_bar a:hover {
+  border-bottom: 3px solid #ee5f73;
+}
+.nav_bar a sup {
+  top: -0.4rem;
+  font-size: 10px;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+  color: #ff3f6c;
+  margin-bottom: 2px;
+}
+.search_bar {
+  height: 40px;
+  min-width: 200px;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  /* border: 2px solid #f5f5f6;
+  border-radius: 5px; */
+}
+
+.search_icon {
+  box-sizing: content-box;
+  height: 20px;
+  padding: 10px;
+  background: #f5f5f6;
+  color: #282c3f;
+  font-weight: 300;
+  border-radius: 5px 0 0 5px;
+}
+.search_input {
+  background: #f5f5f6;
+  color: #696e79;
+  flex-grow: 1;
+  height: 40px;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  outline: none;
+}
+.action_bar {
+  display: flex;
+  min-width: 200px;
+  justify-content: space-evenly;
+}
+.action_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: 3px solid #ffffff;
+}
+.action_container:hover {
+  border-bottom: 3px solid #ee5f73;
+}
+
+/* Main section */
+.offer_time {
+  display: flex;
+  justify-content: center;
+  background-color: #fafbfc;
+  height: 80px;
+  color: black;
+  padding: 25px;
+  margin: 4px 0;
+  font-size: 25px;
+  font-weight: 35px;
+  word-spacing: 3px;
+}
+.offer_time span {
+  color: #ff3f6c;
+  padding: 0 3px;
+}
+.offer_time sub {
+  font-size: 10px;
+}
+.banner_container {
+  margin: 0px 0px 40px 0px;
+}
+.banner_image {
+  max-width: 100%;
+  height: auto;
+}
+.category_heading {
+  text-transform: uppercase;
+  color: #3e4152;
+  letter-spacing: 0.15em;
+  font-size: 1.8em;
+  margin: 50px 0 10px 30px;
+  max-height: 5em;
+  font-weight: 700;
+}
+.category_items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.sale_items {
+  width: 230px;
+}
+.footer_container {
+  display: flex;
+  justify-content: space-evenly;
+  background: #fafbfc;
+  padding: 30px 0px 40px 0px;
+}
+.footer_col {
+  display: flex;
+  flex-direction: column;
+}
+.footer_col h5 {
+  color: #282c3f;
+  margin-bottom: 25px;
+  font-size: 14px;
+}
+.footer_col a {
+  color: #696b79;
+  font-size: 15px;
+  text-decoration: none;
+  padding-bottom: 5px;
+  cursor: pointer;
+  line-height: normal;
+}
+.copy_Rights {
+  display: flex;
+  justify-content: center;
+  color: #282c3f;
+  margin: 25px 0;
+  font-size: 14px;
+  font-weight: 5px;
+}
